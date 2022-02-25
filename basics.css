@@ -1,0 +1,60 @@
+html
+{
+scroll-behavior:smooth;
+}
+body
+{
+background-color:lightblue;
+border-style:solid;
+}
+img
+{
+width:80%;
+height:300px;
+}
+p
+{
+font-style:normal;
+font-size:30px;
+}
+table:hover
+{
+border-color:red;
+}
+b
+{
+visibility:hidden;
+}
+img:hover
+{
+box-shadow: -10px -10px 5px yellow, 10px 10px 5px yellow,
+	     10px -10px 5px yellow, -10px 10px 5px yellow;
+}
+h2
+{
+position:sticky;
+top:0;
+background-color:green;
+}
+div.ani {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;  
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%   {background-color:red; left:1500px; top:0px;}
+  50%   {background-color:red; left:1500px; top:1300px;}
+  75%   {background-color:red; left:0px; top:1300px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+ul
+{
+list-style-type:square;
+}
